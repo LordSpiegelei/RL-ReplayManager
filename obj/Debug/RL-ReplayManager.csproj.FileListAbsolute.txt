@@ -1,0 +1,16 @@
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\bin\Debug\RL-ReplayManager.exe.config
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\bin\Debug\RL-ReplayManager.exe
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\bin\Debug\RL-ReplayManager.pdb
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\obj\Debug\RL-ReplayManager.csprojAssemblyReference.cache
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\obj\Debug\RL_ReplayManager.Properties.Resources.resources
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\obj\Debug\RL-ReplayManager.csproj.GenerateResource.cache
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\obj\Debug\RL-ReplayManager.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\obj\Debug\RL-ReplayManager.exe
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\obj\Debug\RL-ReplayManager.pdb
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\obj\Debug\RL_ReplayManager.Form1.resources
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\bin\Debug\KellermanSoftware.Compare-NET-Objects.dll
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\bin\Debug\RocketLeagueReplayParser.dll
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\bin\Debug\KellermanSoftware.Compare-NET-Objects.xml
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\danie\Documents\Visual Studio 2017\Projects\RL-ReplayManager\RL-ReplayManager\obj\Debug\RL-ReplayManager.csproj.CopyComplete
