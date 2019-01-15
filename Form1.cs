@@ -53,7 +53,6 @@ namespace RL_ReplayManager
         {
             InitializeComponent();
             this.FormClosing += Form1_FormClosing;
-            this.Token_textBox.KeyUp += Token_textBox_KeyUp;
             this.ReplayList_dataGridView.SelectionChanged += ReplayList_dataGridView_SelectionChanged;
             this.UploadVisibility_comboBox.TextChanged += UploadVisibility_comboBox_TextChanged;
         }
@@ -73,11 +72,6 @@ namespace RL_ReplayManager
             Application.Exit();
             //e.Cancel = true;
             //this.Hide();
-        }
-
-        private void Token_textBox_KeyUp(object sender, EventArgs e)
-        {
-            BallChasing.Token = Token_textBox.Text;
         }
 
         //selected replay changes
@@ -103,6 +97,11 @@ namespace RL_ReplayManager
         public void LogClear()
         {
             Log_textBox.Text = "-----> Logger <-----";
+        }
+
+        public string ReadToken()
+        {
+            return Token_textBox.Text;
         }
 
         //--Grids--

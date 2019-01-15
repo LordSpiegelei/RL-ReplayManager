@@ -11,8 +11,6 @@ namespace RL_ReplayManager
     class BallChasing
     {
 
-        public static string Token = "Sm9L1kyN2x4AyGmEozKkhSbGXW6gKPfWMFgMX592";
-
         public static string PingResponse = "";
         public static async Task PingAsync()
         {
@@ -20,7 +18,7 @@ namespace RL_ReplayManager
             {
                 using (var request = new HttpRequestMessage(new HttpMethod("GET"), "https://ballchasing.com/api/"))
                 {
-                    request.Headers.TryAddWithoutValidation("Authorization", Token);
+                    request.Headers.TryAddWithoutValidation("Authorization", Program.form.ReadToken());
 
                     var response = await httpClient.SendAsync(request);
 
@@ -49,7 +47,7 @@ namespace RL_ReplayManager
             {
                 using (var request = new HttpRequestMessage(new HttpMethod("POST"), "https://ballchasing.com/api/upload?visibility=" + Visibility))
                 {
-                    request.Headers.TryAddWithoutValidation("Authorization", Token);
+                    request.Headers.TryAddWithoutValidation("Authorization", Program.form.ReadToken());
 
                     var multipartContent = new MultipartFormDataContent();
                     multipartContent.Add(new ByteArrayContent(File.ReadAllBytes(FilePath)), "file", Path.GetFileName(FilePath));
